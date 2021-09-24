@@ -1,0 +1,62 @@
+.icon1
+{
+	position: absolute;
+	width: 100px;
+	top:35px;
+	left:15px;
+	float:left;
+}
+.icon2
+{
+	position: absolute;
+	width: 100px;
+	top:35px;
+	right:15px;
+	float:right;
+}
+.head1
+{
+	vertical-align: top;
+	text-align: center;
+	font-size: 50px;
+	color:#C0C0C0;
+
+}
+.headers
+{
+	background-image: url('bg6.jpg');
+	
+	
+	overflow:auto;
+	background-size: cover;
+	background-attachment: fixed;
+}
+body
+{
+	background-image: url('bg4.jpg') ;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+.button1
+{
+	background-color:#E0FFFF;
+	border:none;
+	color:black;
+	text-align:center;
+	font-weight:bold;
+
+	display:inline-block;
+	padding:10px 32.9px;
+	float:left;
+	border:1px solid black;
+	border-radius: 7px;
+}
+.button1:hover
+{
+	background-color:#B0E0E6;
+}
+.button1:active
+{
+	transform: translateY(-4px);
+}

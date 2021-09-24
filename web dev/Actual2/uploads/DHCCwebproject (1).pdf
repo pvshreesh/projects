@@ -1,0 +1,115 @@
+<br />
+<b>Warning</b>:  readfile(uploadsDHCCwebproject.pdf): failed to open stream: No such file or directory in <b>C:\xampp\htdocs\PhpProject1\homeforadmin.php</b> on line <b>67</b><br />
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>homeforadmin</title>
+        <link rel="stylesheet" type="text/css" href="stylehomeforadmin.css">
+        
+    </head>
+    <body>
+        
+                <h4>Guest</h4>
+        <h3>Welcome : </h3>
+        <p id="p3">POWER SECTOR-MARKETING</p>
+        <a href="changepass.php" id="chpas">Change Password</a>
+        <a href="updateprof.php" id="upprof">Update Profile</a>
+        <a href="Loginpage.php" id="log">Logout</a>
+        <div class="ScrollStyle">
+
+        <div id="top">
+                <input name="HOME" type="submit" class="home" value="HOME"/>	
+                <input name="ABOUT US" type="submit" class="home"  value="ABOUT US"/>	
+                <input name="OUR CUSTOMERS" type="submit" class="home" value="OUR CUSTOMERS"/>	
+                <input name="BUSINESS ENVIRONMENT" type="submit" class="home" value="BUSINESS ENVIRONMENT"/>	
+                <input name="ONLINE SYSTEM" type="submit" class="home"  value="ONLINE SYSTEM"/>	
+                <input name="TENDERS" type="submit" class="home"  value="TENDERS"/>	
+        	<input name="CONTRACTS" type="submit" class="home"  value="CONTRACTS"/>	
+               	<input name="EMPLOYEE CORNER" type="submit" class="home"  value="EMPLOYEE CORNER"/>
+	 
+        
+        </div>
+        
+       <hr>
+       <hr id="scr">
+       <div id="p1">Current Tenders</div>
+       <div  id="p2">All Tenders</div>
+       <p id="right"></p>
+       <p id="left"></p>
+
+        
+         
+       <table border='1'  width='100%' cellpadding='5' id='bor'>
+          
+   
+           <thead id="hd">
+            
+            <th>Marketing Group</th>
+            <th>HPVPENQ.NO</th>
+            <th>Consultant/Customer name</th>
+            <th>Consultant/CustomerEnq</th>
+            <th>DueDate</th>
+            <th>PhNo</th>
+            <th>Description</th>
+            <th>HPVP OfferRef</th>
+            <th>Delivery</th>
+            <th>Remarks</th>
+            <th>Actions</th>            
+            </thead>
+        <tbody>           
+                        <tr>
+                
+                <td>mnmnbm</td>
+                <td>bnmbnm</td>
+                <td>nbmbnm</td>
+                <td>bcvb</td>
+                <td>cvbvb</td>
+                <td>vbnvbn</td>
+                <td>vbnvbn</td>
+                <td>vbnbvn</td>
+                <td>bxcv</td>
+                <td>xcv</td>               
+                <td>
+                    <a href="homeforadmin.php?file_id=dairy (2).docx">Download</a>                   
+                </td>
+            </tr>           
+                        <tr>
+                
+                <td>ghgfh</td>
+                <td>hfgh</td>
+                <td>fghfgh</td>
+                <td>fghfg</td>
+                <td>gfhfgh</td>
+                <td>gfhfgh</td>
+                <td>fghfgh</td>
+                <td>fghfgh</td>
+                <td>fghfghfgh</td>
+                <td>gfhfgh</td>               
+                <td>
+                    <a href="homeforadmin.php?file_id=DHCCwebproject.pdf">Download</a>                   
+                </td>
+            </tr>           
+                        
+        </tbody>
+       </table>
+    </div>   
+        
+        <form  action="upload.php">
+        <input class="addbtn" type="submit" value="Add" />
+        </form>
+        <form  action="delete.php">
+        <input class="deletebtn" type="submit" value="Delete" />
+        </form>
+        <form  action="edit.php">
+        <input class="editbtn" type="submit" value="Edit" />
+        </form>
+        
+        
+    </body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login</title>
+	<style type="text/css">
+
+				
+	input[type=text]{
+
+			position:absolute;
+			top:355px;
+			left:480px;
+
+			}
+	input[type=password]{
+
+			position:absolute;
+			top:405px;
+			left:480px;
+			}
+			
+    #butn input[type=button]{
+
+			position:absolute;
+			top:1460px;
+			left:1380px;
+		}
+
+
+	#un {
+			border: 1.25px solid black;
+			width:125px;
+			color:black;
+			padding:2px;
+			position:absolute;
+			top:350px;
+			left:330px;
+			color:red;
+			font-size:25px;
+			font-family:Arial;
+			
+			}
+	#password {
+			border: 1.25px solid black;
+			width:125px;
+			color:black;
+			padding:2px;
+			position:absolute;
+			top:400px;
+			left:330px;
+			color:red;
+			font-size:25px;
+			font-family:Arial;
+			
+			}		
+
+	img {
+			position:absolute;
+			top:0px;
+			left:650px;
+			width:885.6px;
+			height:754px;
+	}
+	h1 {
+		position:absolute;
+		top:0px;
+		left:200px;
+	font-family:Gadugi;
+	color:purple;
+	}
+	</style>	
+
+
+</head>
+<body>
+Aditya Bejjanki<br/>
+Id:2018A7PS0282H.<br/>
+BHEL-IT Marketing Portal.
+<h1><u>Library Catalogue</u></h1>
+
+<script type="text/javascript">
+
+
+var unnn=new Array("apple","mango","orange");
+var pwww=new Array("apt","mat","oat");
+
+function validate() {
+
+var un = document.myform.username.value;
+var pw = document.myform.pword.value;
+var k= 0;
+
+
+for(var i=0; i<=unnn.length; i++){
+if ((un == unnn[i]) && (pw == pwww[i])) {
+k = 1;
+break;
+}
+}
+
+if(k==1){
+alert("Login was successful");
+window.location.href="library.html";
+}
+else {
+alert("Invalid username and/or password.");
+document.myform.username.value = "";
+document.myform.pword.value = "";
+}
+
+k = 0;
+
+}
+
+
+
+
+</script>
+
+
+
+
+<form name="myform">
+	<div id="un">Username:</div>
+	<input type="text" name="username" /><br/><br/>
+	<div id="password">Password:</div> 
+	<input type="password" name="pword" />
+	
+	<input type="button" value="Login"     onclick="validate()">
+	<input type="button" value="New User"  onclick="validator()">
+	
+</form>
+
+<img src="library.jpg"/>
+
+
+
+</body>
+</html>

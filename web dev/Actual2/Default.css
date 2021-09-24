@@ -1,0 +1,100 @@
+table
+{
+	width:100%;
+	border:1px solid #4169E1;
+	border-collapse: collapse;
+	
+}
+th,td
+{
+	border:1px solid #4169E1;
+	border-collapse: collapse;
+	
+}
+td{
+	text-align:left;
+}
+.tr1
+{
+	text-align: left;
+
+}
+.tr1b
+{
+	color:blue;
+	text-decoration: underline;
+}
+.tr1:nth-child(even) 
+{
+	background-color: #D3D3D3;
+}
+.tr1:nth-child(odd) 
+{
+    background-color:#F5F5F5;
+}
+.ct
+{
+	background-color:#E0FFFF;
+	color:#00008B;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size:35px;
+}
+.at
+{
+	background-color:#D3D3D3;
+	color:#8B0000;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	font-size:25px;
+}
+.button2{
+	background-color:	#006400;
+	border:none;
+	color:white;
+	text-align:center;
+	font-weight:bold;
+	padding:10px 50px;
+	border:2px solid black;
+	border-radius: 7px;
+}
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button2:hover span {
+  padding-right: 25px;
+}
+
+.button2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.a1:link, .a1:visited {
+  background-color: #000080;
+  color: white;
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.a1:hover, .a1:active {
+  background-color: #4169E1;
+}
+#top_buttons{
+    position: relative;
+    left: 150px;
+}

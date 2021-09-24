@@ -1,0 +1,55 @@
+
+
+				
+	ol {
+		position:absolute;
+		top:250px;
+		left:87px;
+		font-size:30px;
+		
+		
+	}
+	.back {
+		position:absolute;
+		top:20px;
+		left:1400px;
+		font-size:30px;
+		font-family:arial;
+	
+	}
+	h2{
+		
+		
+
+		font-size:40px;
+		
+		color:purple;
+		position:absolute;
+		top:140px;
+		left:100px
+	}
+	
+	h3{
+		
+		
+
+		font-size:40px;
+		color:purple;
+		position:absolute;
+		top:140px;
+		left:400px
+	}
+	
+	p {
+	  border: 1px solid black;
+	  position:absolute;
+	  top:50px;
+	  left:5px;
+	  width:1525px;
+	  height:5px;
+	  color:Blue;
+	  background-color:purple;
+	  padding:50px:
+
+
+	 }

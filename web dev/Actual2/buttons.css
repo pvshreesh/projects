@@ -1,0 +1,88 @@
+.button2{
+	float:left;
+	border:1px solid black;
+	text-align:center;
+	padding:15px 25px;
+	font-weight:bold;
+	margin:auto;
+	display:block;
+	
+
+}
+.button3{
+  float:left;
+  border:1px solid black;
+  text-align:center;
+  padding:15px 25px;
+  font-weight:bold;
+  margin:auto;
+  display:block;
+   background-color: #2F4F4F ;
+  color:white;
+
+}
+.button3:hover{
+  background-color:#DEB887 ;
+  color:black;}
+.button2a{
+	background-color: #2E8B57;
+	color:white;
+}
+.button2b{
+	background-color: #FFD700;
+	color:black;
+}
+.button2c{
+	background-color: 	#8B0000;
+	color:white;
+}
+.button2d{
+	color:black;
+}
+.button2d:hover{
+	background-color:#008080;
+	color:white;
+}
+.button2e{
+  background-color: #2F4F4F ;
+  color:white;
+}
+
+
+.a2:link, .a2:visited {
+  background-color: red;
+  color: white;
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.a2:hover, .a2:active {
+  background-color:#f44336;
+}
+.a3:link, .a3:visited {
+  background-color: #000080;
+  color: white;
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.a3:hover, .a3:active {
+  background-color: #4169E1;
+}
+.a4:link, .a4:visited {
+  background-color:#A52A2A ;
+  color: white;
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.a4:hover, .a4:active {
+  background-color:#BC8F8F;
+}
+

@@ -1,0 +1,23 @@
+	ol {
+		position:absolute;
+		top:250px;
+		left:87px;
+		font-size:30px;
+		
+		
+	}
+	.back {
+		position:absolute;
+		top:20px;
+		left:1400px;
+		font-size:30px;
+		font-family:arial;
+	
+	}
+	h2{
+		font-size:40px;
+		color:purple;
+		position:absolute;
+		top:140px;
+		left:100px
+	}

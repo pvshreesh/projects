@@ -1,0 +1,16 @@
+	ol {
+		position:absolute;
+		top:250px;
+		left:87px;
+		font-size:30px;
+		
+		
+	}
+
+	h2{
+		font-size:40px;
+		color:purple;
+		position:absolute;
+		top:140px;
+		left:100px
+	}

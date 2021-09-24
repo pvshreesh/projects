@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Front page</title>
+    <link rel="stylesheet" type="text/css" href="admin_style.css">
+</head>
+<body>
+<header>
+
+	<div class="hio">
+    <img class="logo floatLeft" alt="Logo" >
+    <img class="logo2 floatRight" alt="Logo">
+    <h3 class="logoHeader">POWER SECTOR-MARKETING</h3>
+    
+</div>
+    
+        <ul class="nav">
+  <li>Welcome: Admin</li>            
+  <li><a href="#home">Logout</a></li>
+</ul> 
+        
+        <button class="button button1">HOME</button>
+        <button class="button button2">ABOUT US</button>
+        <button class="button button2">OUR CUSTOMERS</button>
+        <button class="button button2">BUSINESS ENVIRONMENT</button>
+        <button class="button button2">ONLINE SYSTEM</button>
+        <button class="button button2">TENDERS</button>
+        <button class="button button2">CONTRACTS</button>
+        <button class="button button2">EMPLOYEE CORNER</button>
+    <br>
+</header>
+<main>	
+    <div class="john">
+     <h3 class="secondh">Quick Links</h3>
+        <ul>
+       <li><a href = >Old Website</a></li>
+       <li><a href = "#">Customer Directory</a></li>
+       <li><a href = "#">Client Certificate</a></li>
+       <li><a href = "#">Knowledge Management</a></li>
+       <li><a href = "#">Telephone Directory</a></li>
+       <li><a href = "#">Debtor Management System (DMS)</a></li>
+       <li><a href = "#">WebMail</a></li>
+       </ul> 
+    </div>
+	<div class = "down"> 
+  <form method="post">	
+		<button name="download" class="buttond button3">DOWNLOAD</button><br><br><br>
+  </form>
+		<p> Some points to keep in mind:
+		<ul>
+			
+			<li> Make sure to logout after the work is done.</li>
+			<li> Sharing of these tender files with anyone <br>outside the company is punishable by law.</li>
+		</ul>
+    <div>
+       <DOCTYPE html>
+ hsdjjkdcdsncdscUploads/A4.jpg<br />
+<b>Warning</b>:  readfile(UploadsA4.jpg): failed to open stream: No such file or directory in <b>C:\xampp\htdocs\PhpProject3\download.php</b> on line <b>36</b><br />
+
+ <html>
+ <body>
+ 	<div>
+      <table>
+        <thead>
+          <th>Serial number</th>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Download</th>
+        </thead>
+        <tbody>
+                    <tr>
+            <td> 1</td>
+            <td> Niv</td>
+            <td>yayy</td>
+            <td>
+              <a href="admin_login.php?file_id=1">Download</a>
+            </td>
+          </tr>
+                    <tr>
+            <td> 6</td>
+            <td> G2.jpg</td>
+            <td>image/jpeg</td>
+            <td>
+              <a href="admin_login.php?file_id=6">Download</a>
+            </td>
+          </tr>
+                    <tr>
+            <td> 7</td>
+            <td> A4.jpg</td>
+            <td>image/jpeg</td>
+            <td>
+              <a href="admin_login.php?file_id=7">Download</a>
+            </td>
+          </tr>
+                    <tr>
+            <td> 8</td>
+            <td> vikings 4.jpg</td>
+            <td>image/jpeg</td>
+            <td>
+              <a href="admin_login.php?file_id=8">Download</a>
+            </td>
+          </tr>
+                    <tr>
+            <td> 9</td>
+            <td> Screenshot (114</td>
+            <td>image/png</td>
+            <td>
+              <a href="admin_login.php?file_id=9">Download</a>
+            </td>
+          </tr>
+                  </tbody>
+      </table>
+      
+
+
+    </div>
+</body>
+</html>  </div>
+		</p>
+	</div>
+	<div class = "line"></div>
+	<div class = "up">
+    <form method="post" enctype="multipart/form-data">
+      <input type="file"  name="ufile" />
+		<button name="upload" class="buttond button4">UPLOAD</button><br><br><br>
+  </form>
+		    <p> <br><br>Some points to keep in mind:
+		<ul>
+			
+			<li> The file uploaded should be in the format: <br> "tendername_companyname_year.pdf"</li>
+			<li> The validity of the content is the responsibility <br>of the admins. Kindly proof-read before uploading.</li>
+		</ul>
+		</p>
+    
+  </div>
+
+
+</main>
+</body>
+</html> 

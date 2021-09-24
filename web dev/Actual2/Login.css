@@ -1,0 +1,80 @@
+*{
+	box-sizing: border-box;
+}
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.col {
+  float: left;
+  padding: 10px;
+}
+.col.side{
+	
+	width:25%;
+}
+
+.col.middle{
+	
+	width:75%;
+}
+.login{
+	border-style: outset;
+	border-radius:15px;
+	border-color:#2F4F4F;
+	background-color: #B0E0E6;
+	text-align:center;
+}
+.head2{
+	font-size:25px;
+	color:black;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.p2{
+	font-size: 15px;
+	font-weight: bold;
+}
+.submit{
+	background-color:#F0F8FF;
+	border:none;
+	color:black;
+	text-align:center;
+	font-weight:bold;
+	padding: 10px 30px;
+	border-style: solid;
+	border-color:black;
+}
+.submit:hover{
+	background-color: #2E8B57;
+	color:white;
+}
+.Pass{
+	background-color:#DDA0DD;
+	border:none;
+	color:black;
+	text-align:center;
+	font-weight:bold;
+	padding: 10px 30px;
+	border-style: solid;
+	border-color:black;
+}
+.Pass:hover{
+	background-color: #2E8B57;
+	color:white;
+}
+.head3{
+	font-size:60px;
+	font-weight:bold;
+	color:#8B0000;
+	text-align:center;
+}
+.matter{
+	font-size:30px;
+}
+#top_buttons{
+    
+    position: relative;
+    left: 150px;
+}

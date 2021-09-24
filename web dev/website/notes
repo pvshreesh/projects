@@ -1,0 +1,87 @@
+document.myform.username.disabled  =  true;
+document.myform.pword.disabled  =  true;
+
+No ,more tries allowed!
+
+count --;
+
+var  t = "tries";
+if (count == 1) {t = "try"}
+
+if (count >= 1) {
+
+ You have " + count + t + +left.
+ 
+ alert ("still incorrect! You have no more tries left!");
+document.myform.username.value = "";
+document.myform.pword.value  =  "";
+
+var count = 2;
+
+for (var i=0; i <unArray.length; i++) {
+
+setTimeout("document.myform.username.focus()", 25);
+setTimeout("document.myform.username.select()", 25);
+
+return false;
+
+
+
+var valid = false;
+
+alert("Invalid username and/or password.");
+
+<a href="library.html">login</a><br/>
+
+	a 		{
+			position:absolute;
+			top:450px;
+			left:440px;
+			color:red;
+			font-size:30px;
+			font-family:Arial;
+		}
+		
+		function validator();
+{
+
+window.location.href="newuser.html";
+
+}
+
+
+<input type="button" value="New User"  onclick="validator()">
+
+			
+	#button_2 input[type=button]{
+
+			position:absolute;
+			top:460px;
+			left:380px;
+
+			}
+
+function validator(){
+var unArray;
+var pwArray;
+
+
+
+unArray[i] = document.myform.username.value;
+pwArray[i] = document.myform.pword.value;
+i++;
+document.myform.username.value = "";
+document.myform.pword.value = "";
+}
+
+
+
+function validator() {
+
+var p = unnn.length;
+unnn[p] = document.myform.username.value;
+pwww[p] = document.myform.pword.value;
+
+}
+
+	<input type="button" value="New User"  onclick="validator()">
